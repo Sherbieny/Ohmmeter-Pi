@@ -69,10 +69,10 @@ int main(){
 		exit(1);
 	}
 
-	//To do a single-shot conversion we send the configuration bytes 11000001 00000011 to config register at address 00000001
+	//To do a single-shot conversion we send the configuration bytes 11010001 00000011 to config register at address 00000001
 	//Tables 6, 7, 8, and 9 explain these bits
 	write_buf[0] = 1;    // 00000001 points to the config register
-	write_buf[1] = 0xD1; // writing 11000001 in second byte (tried 000 PGA for 6.144V gain)
+	write_buf[1] = 0xD1; // writing 11010001 in second byte (tried 000 PGA for 6.144V gain)
 	write_buf[2] = 0x03;  // writing 00000011 in third byte
 
 	read_buf[0] = 0; // initialize the reading buffer
