@@ -16,9 +16,9 @@ An Ohmmeter device using **Raspberry PI 2B** with **ADS1015** as ADC
 * Configuration
     + SSH, VNC or anyother method of communication enabled between the Raspberry PI and the user PC
         + My case was 
-            > Laptop with Ubuntu 16.04 LTS
-            > Raspberry PI 2B with Raspbian Jessie release __2017-01-11-raspbian-jessie.img__
-            > SSH communication through ethernet cable
+            * Laptop with Ubuntu 16.04 LTS
+            * Raspberry PI 2B with Raspbian Jessie release __2017-01-11-raspbian-jessie.img__
+            * SSH communication through ethernet cable
 
 * Deployment instructions
     + As per the schematics folder
